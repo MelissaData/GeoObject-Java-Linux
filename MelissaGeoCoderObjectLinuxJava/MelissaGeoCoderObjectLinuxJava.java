@@ -37,7 +37,7 @@ public class MelissaGeoCoderObjectLinuxJava {
   }
 
   public static void RunAsConsole(String license, String testZip, String dataPath) throws IOException {
-    System.out.println("\n\n========== WELCOME TO MELISSA GEOCODER OBJECT LINUX JAVA ==========\n");
+    System.out.println("\n\n========== WELCOME TO MELISSA GEOCODER OBJECT LINUX JAVA ===========\n");
     GeoObject geoObject = new GeoObject(license, dataPath);
     Boolean shouldContinueRunning = true;
 
