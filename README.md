@@ -35,7 +35,7 @@ For Canada:
 ## Tested Environments
 
 - Linux 64-bit Java 19.0.2, Ubuntu 20.04.05 LTS
-- Melissa data files for 2024-Q3
+- Melissa data files for 2024-Q4
 
 ## Required Files and Programs
 
@@ -105,8 +105,8 @@ If you see the version number then you have installed Java and set up your envir
 
 #### Download this project
 ```
-$ git clone https://github.com/MelissaData/GeoObject-Java-Linux
-$ cd GeoObject-Java-Linux
+git clone https://github.com/MelissaData/GeoObject-Java-Linux
+cd GeoObject-Java-Linux
 ```
 
 #### Set up Melissa Updater 
@@ -172,26 +172,26 @@ When you have modified the script to match your data location, let's run the scr
 There are two modes:
 - Interactive
 
-	The script will prompt the user for a zip code, then use the provided zip to test GeoCoder Object. For example:
-	```
-	$ ./MelissaGeoCoderObjectLinuxJava.sh
-	```
-	For quiet mode:
-	```
-	$ ./MelissaGeoCoderObjectLinuxJava.sh --quiet
-	```
+  The script will prompt the user for a zip code, then use the provided zip to test GeoCoder Object. For example:
+  ```
+  ./MelissaGeoCoderObjectLinuxJava.sh
+  ```
+  For quiet mode:
+  ```
+  ./MelissaGeoCoderObjectLinuxJava.sh --quiet
+  ```
 - Command Line
 
-    You can pass a zip code in the ```--zip``` parameter and a license string in ```--license``` parameter to test GeoCoder Object. For example:
-    ```
-    $ ./MelissaGeoCoderObjectLinuxJava.sh --zip "92688"
-    $ ./MelissaGeoCoderObjectLinuxJava.sh --zip "92688" --license "<your_license_string>"
-    ```
-    For quiet mode:
-    ```
-    $ ./MelissaGeoCoderObjectLinuxJava.sh --zip "92688" --quiet
-    $ ./MelissaGeoCoderObjectLinuxJava.sh --zip "92688" --license "<your_license_string>" --quiet
-    ```
+  You can pass a zip code in the ```--zip``` parameter and a license string in ```--license``` parameter to test GeoCoder Object. For example:
+  ```
+  ./MelissaGeoCoderObjectLinuxJava.sh --zip "92688"
+  ./MelissaGeoCoderObjectLinuxJava.sh --zip "92688" --license "<your_license_string>"
+  ```
+  For quiet mode:
+  ```
+  ./MelissaGeoCoderObjectLinuxJava.sh --zip "92688" --quiet
+  ./MelissaGeoCoderObjectLinuxJava.sh --zip "92688" --license "<your_license_string>" --quiet
+  ```
 This is the expected output from a successful setup for interactive mode:
 
 ![alt text](/screenshots/output.png)
